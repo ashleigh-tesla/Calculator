@@ -65,6 +65,9 @@ body {
     font-size: 2.5rem;
 }
 
+
+/* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
     .calculator-grid {
         min-height: 50vh;
@@ -86,4 +89,31 @@ body {
     }
 }
 
-@media only screen and (min-width: 760px) and (max-width: 960px) {}
+
+/* Medium devices and larger devices which include ( landscape tablets, laptops and or other desktops between 768 pixel and 992 pixel ) 
+@media only screen and (min-width: 768px) and (max-width: 992px) {}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
