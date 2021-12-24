@@ -9,9 +9,6 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
-    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
-    background: radial-gradient(red, yellow, green);
 }
 
 .father {
@@ -48,11 +45,15 @@ body {
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
-    background-color: rgba(255, 255, 255, .75);
+    /* background-color: rgba(255, 255, 255, .75); */
+    background: repeating-radial-gradient(red, yellow, green);
+    opacity: .75;
 }
 
 .calculator-grid>button:hover {
-    background-color: rgba(255, 255, 255, .9);
+    /* background-color: rgba(255, 255, 255, .9); */
+    background: repeating-radial-gradient(red, yellow, green);
+    opacity: 1.0;
 }
 
 .span-two {
@@ -61,7 +62,9 @@ body {
 
 .output {
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    /* background: repeating-radial-gradient(red, yellow, green); */
+    background: repeating-radial-gradient( purple, blueviolet, violet);
+    /* background-color: rgba(0, 0, 0, .75); */
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
